@@ -1,0 +1,15 @@
+tag: experiments/samplepairing_fh
+data_path: /input
+epochs: 100
+batch: 128
+optimizer:
+  type: sgd
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0.001
+samplepairing:
+  use: True
+  start_from: 10
+  on_off_period: [8, 2]
+  finetuning_epoch: 90
+  p: 1

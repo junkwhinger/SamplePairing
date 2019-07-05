@@ -1,0 +1,11 @@
+tag: experiments/baseline_fh
+data_path: /input
+epochs: 100
+batch: 128
+optimizer:
+  type: sgd
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0.001
+samplepairing:
+  use: False
